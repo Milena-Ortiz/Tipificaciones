@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #0d1b2a; /* Fondo azul oscuro corporativo */
-  color: #ffffff;
+  background-color: #f4f6f8; /* Gris ratón / claro */
+  color: #2b2b2b; /* Texto oscuro para buen contraste */
   padding: 20px;
 }
 
@@ -9,14 +9,15 @@ body {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #1b263b;
-  background: #1b263b; /* Fondo del buscador */
-  color: #ffffff;
+  border: 2px solid #d32f2f; /* Borde Rojo Sisfinco */
+  background: #ffffff; /* Blanco */
+  color: #2b2b2b;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
 #buscador::placeholder {
-  color: #a0aec0;
+  color: #888888;
 }
 
 #contenedor-items {
@@ -26,15 +27,21 @@ body {
 }
 
 .card {
-  background: #1b263b; /* Tarjetas de tipificación */
+  background: #ffffff; /* Tarjetas Blancas */
   padding: 15px;
   border-radius: 8px;
   cursor: pointer;
-  border: 1px solid #415a77;
-  transition: background 0.2s, transform 0.2s;
+  border: 1px solid #e0e0e0;
+  border-left: 5px solid #d32f2f; /* Detalle lateral Rojo Sisfinco */
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
-  background: #415a77; /* Color al pasar el cursor */
   transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(211, 47, 47, 0.15); /* Sombra suave roja */
+}
+
+h3 {
+  color: #d32f2f; /* Títulos en Rojo Sisfinco */
+  margin-top: 0;
 }
