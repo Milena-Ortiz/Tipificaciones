@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 20px;
+}
+
+#buscador {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#contenedor-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #334155;
+}
+
+.card:hover {
+  border-color: #38bdf8;
+}
+
+.oculto { display: none; }
