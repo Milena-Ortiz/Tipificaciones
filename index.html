@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Buscador y Tipificador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Tipificador Personalizado</h1>
+    <input type="text" id="buscador" placeholder="Escribe para buscar...">
+  </header>
+
+  <main id="contenedor-items">
+    <!-- Aquí JavaScript insertará las tarjetas dinámicamente -->
+  </main>
+
+  <section id="detalle" class="oculto">
+    <h2 id="detalle-titulo"></h2>
+    <p id="detalle-texto"></p>
+    <button onclick="copiarTexto()">Copiar texto</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
