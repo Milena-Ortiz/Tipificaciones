@@ -1,8 +1,8 @@
 // 1. Tu lista de datos/categorías personalizada
 const datos = [
-  { id: 1, titulo: "Soporte - Sin Internet", motivo: "Cliente reporta sin servicio. Se valida ONT apagada." },
-  { id: 2, titulo: "Soporte - Intermitencia", motivo: "Cliente reporta lentitud. Se realiza reinicio remoto." },
-  { id: 3, titulo: "Ventas - Plan Nuevo", motivo: "Información comercial entregada sobre plan de 300 Megas." }
+  { id: 1, titulo: "Parámetros", motivo: "Cliente reporta inconvenientes." },
+  { id: 2, titulo: "Compras y C x P", motivo: "Cliente reporta inconvenientes." },
+  { id: 3, titulo: "Inventarios", motivo: "Información comercial." }
 ];
 
 // 2. Renderizar tarjetas en pantalla

@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #0f172a;
-  color: #f8fafc;
+  background-color: #0d1b2a; /* Fondo azul oscuro corporativo */
+  color: #ffffff;
   padding: 20px;
 }
 
@@ -9,10 +9,14 @@ body {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #334155;
-  background: #1e293b;
-  color: white;
+  border: 1px solid #1b263b;
+  background: #1b263b; /* Fondo del buscador */
+  color: #ffffff;
   margin-bottom: 20px;
+}
+
+#buscador::placeholder {
+  color: #a0aec0;
 }
 
 #contenedor-items {
@@ -22,15 +26,15 @@ body {
 }
 
 .card {
-  background: #1e293b;
+  background: #1b263b; /* Tarjetas de tipificación */
   padding: 15px;
   border-radius: 8px;
   cursor: pointer;
-  border: 1px solid #334155;
+  border: 1px solid #415a77;
+  transition: background 0.2s, transform 0.2s;
 }
 
 .card:hover {
-  border-color: #38bdf8;
+  background: #415a77; /* Color al pasar el cursor */
+  transform: translateY(-2px);
 }
-
-.oculto { display: none; }
