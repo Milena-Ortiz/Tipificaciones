@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #c2c7d0; /* Gris ratón corporativo más visible */
-  color: #2b2b2b;
+  background-color: #666666; /* Gris ratón neutro/puro */
+  color: #ffffff; /* Texto blanco para resaltar */
   padding: 20px;
 }
 
