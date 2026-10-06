@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f6f8; /* Gris ratón / claro */
-  color: #2b2b2b; /* Texto oscuro para buen contraste */
+  color: #2b2b2b;
   padding: 20px;
 }
 
@@ -9,8 +9,8 @@ body {
   width: 100%;
   padding: 12px;
   border-radius: 8px;
-  border: 2px solid #d32f2f; /* Borde Rojo Sisfinco */
-  background: #ffffff; /* Blanco */
+  border: 2px solid #d32f2f; /* Rojo Sisfinco */
+  background: #ffffff;
   color: #2b2b2b;
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -27,21 +27,21 @@ body {
 }
 
 .card {
-  background: #ffffff; /* Tarjetas Blancas */
+  background: #ffffff;
   padding: 15px;
   border-radius: 8px;
   cursor: pointer;
   border: 1px solid #e0e0e0;
-  border-left: 5px solid #d32f2f; /* Detalle lateral Rojo Sisfinco */
+  border-left: 5px solid #d32f2f; /* Borde Rojo Sisfinco */
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(211, 47, 47, 0.15); /* Sombra suave roja */
+  box-shadow: 0 4px 12px rgba(211, 47, 47, 0.15);
 }
 
 h3 {
-  color: #d32f2f; /* Títulos en Rojo Sisfinco */
+  color: #d32f2f;
   margin-top: 0;
 }
